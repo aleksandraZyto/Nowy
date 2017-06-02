@@ -4,6 +4,7 @@ package mypackage.factory;
  * Created by RENT on 2017-06-02.
  */
 public class Mercedes implements Car {
+
     private Engine engine;
 
     private Wheels wheels;
@@ -20,7 +21,7 @@ public class Mercedes implements Car {
     @Override
     public void drive() {
         System.out.println("driving mercedes");
-        System.out.println("Engine: "+ engine.toString());
-        System.out.println("Wheels: "+ wheels.toString());
+        System.out.println("Engine: " + engine.toString());
+        System.out.println("Wheels: " + wheels.toString());
     }
 }
