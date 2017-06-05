@@ -6,14 +6,12 @@ package mypackage.builder;
 public class Application {
 
     public static void main(String[] args) {
-        User user = new User.UserBuilder()
+        User user = User.builder()
             .firstName("Szymon")
             .age(23)
             .lastName("Nowak")
             .phoneNumber("66734583457")
                 .build();
         System.out.println(user);
-
-
     }
 }
